@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #141313;
+    color: #fff;
+    padding: 20px;
+}
+
+.restaurant-name{
+    text-align: center;
+    margin: 10px;
+    font-size: 2.5em;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+nav  .button-nav{
+    margin: 10px;
+    background: none;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 5px;
+    /* text-decoration: underline; */
+    transition: all ease-in-out 300ms;
+}
+
+nav .button-nav:hover{
+    background: #fff;
+    color: #141313;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    height: 300px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    margin: 10px;
+}
+
+p{
+    text-align: center;
+    width: 60%;
+}
+
+.Menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Menu-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.Menu-card p, .Menu-card h2{
+    margin: 10px;
+    text-align: center;
+}
+
+.Menu-card p:nth-child(1){
+    width: 30%;
+}
+
+.Menu-card img{
+    height: 200px;
+    width: 300px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.contact p, 
+.contact h1, 
+.contact h2{
+    margin: 8px;
+    
+}
+
